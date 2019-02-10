@@ -7,15 +7,13 @@ files=''
 programname=$0
 
 print_usage() {
-  echo "usage: $programname [-f infile] [-o outfile]"
+  echo "usage: $programname [-f infile]"
   echo "  -f infile   specify input file infile"
-  echo "  -o outfile  specify output file outfile"
 }
 
 while getopts 'f:o:' flag; do
   case "${flag}" in
     f) infiles="${OPTARG}" ; result=$(grep 'owl:Class rdf:about' ${infiles} | cut -d '"' -f2) ;;
-    o) outfiles="${OPTARG}" ; printf "${result}" > ${outfiles};;
     *) print_usage
        exit 1 ;;
   esac
