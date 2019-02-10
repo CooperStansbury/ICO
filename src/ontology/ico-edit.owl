@@ -108,9 +108,13 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_0000231 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000321 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ICO_0000231"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ICO_0000321">
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">This annotation property specifies classes that were developed as part of an alignment effort between the Common Rule Ontology and the Informed Consent Ontology in the Summer of 2018. These classes represent entities that are necessary for understanding the regularatory frameworks that influence informed consent, often at a different level of granularity than individual consent processes. These classes were created to be compatible with regulatory frameworks outside the Unitied States, hence they are general.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">RUBRIC</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -2995,6 +2999,12 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000231">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
+        <obo:IAO_0000115 xml:lang="en">A site within which a deontic power may be realized, where that deontic power inheres in a formally created regulatory body.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">&apos;Jurisdiction&apos; is often defined in two senses: (1) a geopolitical context (BFO site), or (2) a power. We define jurisdiction as a BFO site, identifiable through shared context of other entities, like a country or state border, or the grounds of an institution. The term ‘deontic power role’ reflects the sense of ‘power’ sometimes used to describe jurisdiction.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">jurisdiction</rdfs:label>
     </owl:Class>
     
 
@@ -3005,7 +3015,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">An organization that has a deontic power role prescribed by some regulatory document that occurs in a stasis of regulation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete regulatory body</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -3020,7 +3030,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">Rules, legal specifications, guidelines (both categorical and hypothetical), that exist together in one regulatory document. Regulations may contain a single, or multiple rules.</obo:IAO_0000232>
         <obo:IAO_0000232 xml:lang="en">The clause ‘permissions, obligations, restrictions, or protections’ will be replaced with more general superclass, likely from d-acts, when that infrastructure becomes available. IOU Code.</obo:IAO_0000232>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">regulatory document</rdfs:label>
     </owl:Class>
     
@@ -3033,7 +3043,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000112 xml:lang="en">‘HIPAA documents,’ ‘The Common Rule,’ an ‘Informed Consent Regulatory Document.’</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A regulatory document designed to prescribe research involving human subjects.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">human subject research regulatory document</rdfs:label>
     </owl:Class>
     
@@ -3046,7 +3056,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000115 xml:lang="en">A regulatory document designed to prescribe an informed consent process or inputs in an informed consent process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000425 xml:lang="en">‘Informed Consent Waivers,’ ‘Informed Consent Exemptions.’</obo:IAO_0000425>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">informed consent regulatory document</rdfs:label>
     </owl:Class>
     
@@ -3059,7 +3069,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000112 xml:lang="en">Do action (x).</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A rule in an informed consent regulatory document that prescribes either an informed consent process or deontic roles inhering in agents that participate in an informed consent process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">informed consent rule</rdfs:label>
     </owl:Class>
     
@@ -3073,7 +3083,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">Those conditions that have important implications are enumerated in a specification of condition.</obo:IAO_0000232>
         <obo:IAO_0000600 xml:lang="en">The logical form of a conditional rule is as follows: if condition (y) obtains, then perform action (x).</obo:IAO_0000600>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">conditional informed consent rule</rdfs:label>
     </owl:Class>
     
@@ -3085,7 +3095,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000055"/>
         <obo:IAO_0000115 xml:lang="en">A rule in an informed consent regulatory document that prescribes deontic roles that may be realized in an unspecified range of activities, or which is subject to few restrictions.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">broad consent rule</rdfs:label>
     </owl:Class>
     
@@ -3097,7 +3107,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes information that must be revealed and prescribes to whom that information must be revealed.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">disclosure directive</rdfs:label>
     </owl:Class>
     
@@ -3110,7 +3120,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000112 xml:lang="en">A description of who can consent (but not the conditions required to be realizable).</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes a deontic power role or the process that realizes it.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">deontic power role directive</rdfs:label>
     </owl:Class>
     
@@ -3123,7 +3133,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes the limits of disclosure regarding an agent’s identity.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">May need ‘Conditional Confidentiality Directive&apos; in the future.</obo:IAO_0000232>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete confidentiality directive</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -3137,7 +3147,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000112 xml:lang="en">A ‘signature section,’ an ‘I understand’ clause, or a ‘checkbox.’</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that, when signed, stamped, or initialed realizes a deontic role as described by the document specifications, or specifications in another related document.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">user input directive</rdfs:label>
     </owl:Class>
     
@@ -3149,7 +3159,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that enumerates the results if a trigger condition describing failure to comply with a rule is met.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, J. Neil Otte, Jonathan Vajda</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">consequent directive</rdfs:label>
     </owl:Class>
     
@@ -3162,7 +3172,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes a deontic role that permits some action.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000600 xml:lang="en">Permission to do (x).</obo:IAO_0000600>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">permission directive</rdfs:label>
     </owl:Class>
     
@@ -3175,7 +3185,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000115 xml:lang="en">A conditional specification that prescirbes a permission, should some trigger condition obtain.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000600 xml:lang="en">Permission to do (x), if condition (y).</obo:IAO_0000600>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">conditional permission directive</rdfs:label>
     </owl:Class>
     
@@ -3188,7 +3198,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes actions that are impermissible.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000600 xml:lang="en">When particpating in an informed consent process (a), do not do action (y).</obo:IAO_0000600>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">restriction directive</rdfs:label>
     </owl:Class>
     
@@ -3201,7 +3211,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000115 xml:lang="en">A conditional specification that prescirbes an impermissibility, should some trigger condition obtain.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
         <obo:IAO_0000600 xml:lang="en">When particpating in an informed consent process (a), if conditon (x) do not do action (y).</obo:IAO_0000600>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">conditional restriction directive</rdfs:label>
     </owl:Class>
     
@@ -3213,7 +3223,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes an obligation that is realized a deontic role that is the output of a document act.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">obligation directive</rdfs:label>
     </owl:Class>
     
@@ -3225,7 +3235,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000001"/>
         <obo:IAO_0000115 xml:lang="en">A conditional specification that prescirbes an obligation, should some trigger condition obtain.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">conditional obligation directive</rdfs:label>
     </owl:Class>
     
@@ -3237,7 +3247,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes the agent that is liable if a trigger condition is met.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">liability directive</rdfs:label>
     </owl:Class>
     
@@ -3250,7 +3260,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000112 xml:lang="en">The section of an informed consent document that describes a clinical procedure that the agent is consenting to.</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes a medical procedure.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of medical procedure</rdfs:label>
     </owl:Class>
     
@@ -3263,7 +3273,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000115 xml:lang="en">A directive information entity that describes some state of affairs such that, if that state of affairs holds, some other prescription follows.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">An antecedent.</obo:IAO_0000232>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">trigger condition directive</rdfs:label>
     </owl:Class>
     
@@ -3275,7 +3285,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <obo:IAO_0000117 xml:lang="en">A descriptive information content entity that reports that participation in the procedures described elsewhere in the document are voluntary.</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of voluntary participation</rdfs:label>
     </owl:Class>
     
@@ -3288,7 +3298,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000115 xml:lang="en">A role inhering in an agent as a result of that agent having observed some process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000600 xml:lang="en">Typically, someone who bears a witness role has observed some history, such that one may attest to what has occurred.</obo:IAO_0000600>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">witness role</rdfs:label>
     </owl:Class>
     
@@ -3300,7 +3310,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes some process for withdraw from another planned process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">withdrawal from participation directive</rdfs:label>
     </owl:Class>
     
@@ -3312,7 +3322,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115 xml:lang="en">A temporal region identifier that designates the temporal region during which a living person is alive, and where the temporal region is such that the living person is qualified to exercise a deontic power within a legal jurisdiction.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">legal age</rdfs:label>
     </owl:Class>
     
@@ -3324,7 +3334,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021003"/>
         <obo:IAO_0000115 xml:lang="en">A social act in which formal or official endorsement of some entity is communicated.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:comment xml:lang="en">This &apos;act of approving&apos; is distinct from the mental act of approving.</rdfs:comment>
         <rdfs:label xml:lang="en">act of approving</rdfs:label>
     </owl:Class>
@@ -3337,7 +3347,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes the language that must be used in an informed consent process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">consent language directive</rdfs:label>
     </owl:Class>
     
@@ -3349,7 +3359,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes some process that may be elected.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte, Cooper Stansbury, Jonathan Vajda</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of alternative</rdfs:label>
     </owl:Class>
     
@@ -3363,7 +3373,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">It may be necessary to define processes of coercion in addition to descriptions of the process.</obo:IAO_0000232>
         <obo:IAO_0000600 xml:lang="en">An international review board (IRB) may require a research proposal to identify ways in which a participant may be under undue influence. For example, a prisoner may feel compelled, given their vulnerability, to provide more information or cooperation in a study than they would normally consent to, because of the benefits they might receive.</obo:IAO_0000600>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of coercion</rdfs:label>
     </owl:Class>
     
@@ -3374,7 +3384,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000261">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000232 xml:lang="en">&quot;§46.102(f) Human subject means a living individual about whom an investigator (whether professional or student) conducting research obtains (1) Data through intervention or interaction with the individual, or 2) Identifiable private information. Intervention includes both physical procedures by which data are gathered (for example, venipuncture) and manipulations of the subject or the subject&apos;s environment that are performed for research purposes. Interaction includes communication or interpersonal contact between investigator and subject. Private information includes information about behavior that occurs in a context in which an individual can reasonably expect that no observation or recording is taking place, and information which has been provided for specific purposes by an individual and which the individual can reasonably expect will not be made public (for example, a medical record). Private information must be individually identifiable (i.e., the identity of the subject is or may readily be ascertained by the investigator or associated with the information) in order for obtaining the information to constitute research involving human subjects.&quot;</obo:IAO_0000232>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete information about participant</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -3389,7 +3399,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:resource="http://purl.obolibrary.org/obo/HP_0100543"/>
         <obo:IAO_0000232 xml:lang="en">Adapted from http://purl.obolibrary.org/obo/HP_0100543</obo:IAO_0000232>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <dc:date xml:lang="en">Imported and adapted 8.22.2018</dc:date>
         <rdfs:label xml:lang="en">cognitive impairment</rdfs:label>
     </owl:Class>
@@ -3402,7 +3412,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/SDGIO_00000024"/>
         <obo:IAO_0000115 xml:lang="en">A vulnerability due to exposure to a depressed or impoverished economic environment.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">economic vulnerability</rdfs:label>
     </owl:Class>
     
@@ -3414,7 +3424,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/SDGIO_00000024"/>
         <obo:IAO_0000115 xml:lang="en">A vulnerability due to exposure to a harsh learning environment.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">educational vulnerability</rdfs:label>
     </owl:Class>
     
@@ -3426,7 +3436,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 xml:lang="en">A planned process of storing the document output of an &apos;act of consent&apos; for future use.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">act of archiving informed consent</rdfs:label>
     </owl:Class>
     
@@ -3438,7 +3448,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes a method of some act of communicating.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">contact method description</rdfs:label>
     </owl:Class>
     
@@ -3450,7 +3460,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes some process in which vulnerable individuals participate.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">vulnerable population directive</rdfs:label>
     </owl:Class>
     
@@ -3462,7 +3472,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes the nondisclosure of information.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">confidentiality directive</rdfs:label>
     </owl:Class>
     
@@ -3476,7 +3486,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">adapted from &quot;communicate.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</obo:IAO_0000119>
         <obo:IAO_0000232 xml:lang="en">See ICO: &apos;act of informing.&apos; This class is perhaps not needed.</obo:IAO_0000232>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:comment xml:lang="en">A note: &apos;entity&apos; rather than &apos;agent&apos; is used in this definition in order to allow that software can communicate with other software. However, it should be noted that this definition of communication excludes broader meanings, such as unintentional sharing of information.</rdfs:comment>
         <rdfs:label xml:lang="en">act of communicating</rdfs:label>
     </owl:Class>
@@ -3487,7 +3497,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000270">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete benefit</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -3498,7 +3508,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000271">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete risk</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -3511,7 +3521,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <obo:IAO_0000117 xml:lang="en">A descriptive information content entity that describes the expected duration of participation of some agent in an investigation.</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of expected study participation duration</rdfs:label>
     </owl:Class>
     
@@ -3523,7 +3533,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes some research process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">research method directive</rdfs:label>
     </owl:Class>
     
@@ -3535,7 +3545,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes the conditions under which compensation is due to some agent.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of conditional compensation</rdfs:label>
     </owl:Class>
     
@@ -3547,7 +3557,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes an emotional state of mental or physical uneasiness.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of discomfort</rdfs:label>
     </owl:Class>
     
@@ -3559,7 +3569,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes biospecimens that have been collected.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte, Cooper Stansbury, Jonathan Vajda</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of collected biospecimens</rdfs:label>
     </owl:Class>
     
@@ -3571,7 +3581,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes information that may be collected or the processes of information collection.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of collected information</rdfs:label>
     </owl:Class>
     
@@ -3583,7 +3593,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000305"/>
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes how biospecimens will be used.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of future biospecimen use</rdfs:label>
     </owl:Class>
     
@@ -3595,7 +3605,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes some procedure for obtaining information only available at some future time.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of procedure for obtaining further information</rdfs:label>
     </owl:Class>
     
@@ -3608,7 +3618,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000112 xml:lang="en">For instance, a patient may assert a preferred mode of communication for contact in the future. This may be given in terms of permitting a communication via email, phone call, etc. and it may mention the address or number to be used.</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes methods for contacting an agent.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte, Cooper Stansbury, Jonathan Vajda</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">contact method directive</rdfs:label>
     </owl:Class>
     
@@ -3621,7 +3631,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">A descriptive information content entity that describes some conditions that constitute unauthorized disclosure of information.</obo:IAO_0000232>
         <obo:IAO_0000232 xml:lang="en">It is possible that classes like this will be useful in conjuction with descriptions of risk as in: &apos;description of risk of breach of confidentiality.&apos;</obo:IAO_0000232>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of breach of confidentiality</rdfs:label>
     </owl:Class>
     
@@ -3634,7 +3644,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes legal responsibility that an entity has due to some risk.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jonathan Vajda, Cooper Stansbury, J. Neil Otte</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">description of liability</obo:IAO_0000118>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of legal responsibility</rdfs:label>
     </owl:Class>
     
@@ -3646,7 +3656,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <obo:IAO_0000115 xml:lang="en">A description of risk that describes the magnitude of potential financial loss.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of financial risk</rdfs:label>
     </owl:Class>
     
@@ -3658,7 +3668,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <obo:IAO_0000115 xml:lang="en">A description of risk that describes the magnitude or probability of damage to the reputation of an agent in a social context.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of reputational risk</rdfs:label>
     </owl:Class>
     
@@ -3674,7 +3684,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:IAO_0000115 xml:lang="en">A role that inheres in an agent or group of agents that is the output of a process during which the agent or group of agents is designated as belonging to a vulnerable group.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">Note: It is possible to belong to a vulnerable population and yet not bear a disposition of vulnerability. Typically, when a person is held to be a vulnerable individual, this is a designation that applies by fiat in virtue of their membership to some legally designated group, and not based on a clear investigation of their individual case. Hence, it seems prudent here to use roles for this purpose.</obo:IAO_0000232>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">vulnerable individual role</rdfs:label>
     </owl:Class>
     
@@ -3686,7 +3696,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">A role that inheres in a regulatory body that, if realized, is realized in some act of regulatory supervision.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">regulatory oversight role</rdfs:label>
     </owl:Class>
     
@@ -3699,7 +3709,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:IAO_0000115 xml:lang="en">A role inhering in a Homo sapiens that, if realized, is realized within the organizational context of a legal jurisdiction, when the bearer fails to meet the legal threshold for adulthood.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">It is possible to create further defined classes here, such as &apos;abused minor role&apos; that is a minor that participated in a process of abuse.</obo:IAO_0000232>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">minor role</rdfs:label>
     </owl:Class>
     
@@ -3711,7 +3721,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
         <obo:IAO_0000115 xml:lang="en">A woman who is pregnant.</obo:IAO_0000115>
         <obo:IAO_0000232 xml:lang="en">Could reuse: http://purl.obolibrary.org/obo/ontoneo/ONTONEO_00000197</obo:IAO_0000232>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">pregnant woman</rdfs:label>
     </owl:Class>
     
@@ -3724,7 +3734,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:IAO_0000115 xml:lang="en">A role inhering in a Homo sapiens that is realized in a process of incarceration.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">Note from Jonathan Vajda: Depending on the level of granluarity, we could have prisoner role, incarcerated role, etc. and these roles would differentiated by what kind of stasis of incarceration necessary.</obo:IAO_0000232>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">prisoner role</rdfs:label>
     </owl:Class>
     
@@ -3736,7 +3746,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
         <obo:IAO_0000115 xml:lang="en">A document designed for the purpose of assisting in an act of waiving, and which contains both some description of waiver and some waiver directive.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">waiver document</rdfs:label>
     </owl:Class>
     
@@ -3749,7 +3759,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes an entity that provides positive motivation for some material entity.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">From NCI Thesaurus OBO Edition: Incentive: A benefit, consideration, or positive motivational influence, financial or otherwise, given to induce a specific action. [def-source: NCI]</obo:IAO_0000232>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of incentive</rdfs:label>
     </owl:Class>
     
@@ -3773,7 +3783,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes the information that is permitted to be shared or the processes for sharing that information.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">data sharing directive</rdfs:label>
     </owl:Class>
     
@@ -3786,7 +3796,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes the process of transferring a permission role from one bearer to another.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">Note: Strictly speaking, of course, roles are not transferred; rather, the transfer of a permission involves the role of one agent ceasing to exist, and the role of a second agent coming into existence.</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">permission transfer directive</rdfs:label>
     </owl:Class>
     
@@ -3798,7 +3808,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes the processes that involve some entity as a participant.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">future use directive</rdfs:label>
     </owl:Class>
     
@@ -3810,7 +3820,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes the negative impact or harm that may befall an agent who withdraws from an investigation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of consequences of voluntarily withdrawal</rdfs:label>
     </owl:Class>
     
@@ -3847,7 +3857,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:IAO_0000115 xml:lang="en">A trigger condition directive that prescribes conditions for which a individual bears a vulnerability role or disposition of vulnerability, or a population of such individuals.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte, Jonathan Vajda, Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">See http://purl.unep.org/sdg/SDGIO_00000024 (Vulnerability):  A disposition of an entity to undergo undesirable change in response to some exposure.</obo:IAO_0000232>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">protection directive</rdfs:label>
     </owl:Class>
     
@@ -3859,7 +3869,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 xml:lang="en">A planned process in which a regulatory body directs or monitors another planned process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">act of regulatory supervision</rdfs:label>
     </owl:Class>
     
@@ -3872,7 +3882,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:IAO_0000115 xml:lang="en">A process of mistreating an entity such that the mistreated entity is harmed.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, J. Neil Otte, and Jonathan Vajda</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">adapted from &quot;abuse.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</obo:IAO_0000119>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">act of abuse</rdfs:label>
     </owl:Class>
     
@@ -3885,7 +3895,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:IAO_0000115 xml:lang="en">An act of communicating in which information is shared, overriding or violating a judgment that the information should not be shared.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">It is possible that there are meaningful defined classes here like: &apos;act of authorized disclosure&apos; and &apos;act of unauthorized disclosure.&apos;</obo:IAO_0000232>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">act of disclosure</rdfs:label>
     </owl:Class>
     
@@ -3897,7 +3907,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes a research procedure.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of research procedure</rdfs:label>
     </owl:Class>
     
@@ -3909,7 +3919,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000305"/>
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes how data will be used.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of future data use</rdfs:label>
     </owl:Class>
     
@@ -3921,7 +3931,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes future use of material or information.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of future use</rdfs:label>
     </owl:Class>
     
@@ -3934,7 +3944,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:IAO_0000115 xml:lang="en">A social act of relinquishing a right, claim, or privilege.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">&quot;waiver.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</obo:IAO_0000119>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">act of waiving</rdfs:label>
     </owl:Class>
     
@@ -3946,7 +3956,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes an act of waiving.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">waiver directive</rdfs:label>
     </owl:Class>
     
@@ -3959,7 +3969,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes a directive information content entity that can be ignored.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">adapted from: http://purl.obolibrary.org/obo/NCIT_C113777</obo:IAO_0000232>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of waiver</rdfs:label>
     </owl:Class>
     
@@ -3972,7 +3982,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:IAO_0000115 xml:lang="en">A role inhering in a Homo sapiens that, if realized, is realized in being a passive participant in some act of abuse process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
         <obo:IAO_0000600 xml:lang="en">A passive participant in such a process would mean that the act of abuse has this entity as its target; i.e., the bearer of this role is entity that is mistreated.</obo:IAO_0000600>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">abused person role</rdfs:label>
     </owl:Class>
     
@@ -3984,7 +3994,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes some investigation of biospecimens.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">directive about research of biospecimens</rdfs:label>
     </owl:Class>
     
@@ -3996,7 +4006,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 xml:lang="en">A planned process that involves the investigation of some sequence of DNA.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">act of genetic testing</rdfs:label>
     </owl:Class>
     
@@ -4014,7 +4024,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes some act of genetic testing.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">genetic testing directive</rdfs:label>
     </owl:Class>
     
@@ -4026,7 +4036,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">A role inhering in some material entity that is realized in an act of artifact modification.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">excess material role</rdfs:label>
     </owl:Class>
     
@@ -4038,7 +4048,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
         <obo:IAO_0000115 xml:lang="en">An objective specification whose intended process endpoint is an investigation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">investigation objective specification</rdfs:label>
     </owl:Class>
     
@@ -4052,7 +4062,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:IAO_0000116 xml:lang="en">&quot;The use in research of information or human biological materials originally collected for a purpose other than the current research purpose.&quot;</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Adapted from: “Secondary Use of Data - FAQs - Research Ethics Office - Sunnybrook Research Institute.” [Online]. Available: https://sunnybrook.ca/research/content/?page=sri-crs-reo-faq-secondaryusedata. [Accessed: 07-Nov-2018].</obo:IAO_0000119>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">secondary use objective specification</rdfs:label>
     </owl:Class>
     
@@ -4070,7 +4080,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes some role.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">role directive</rdfs:label>
     </owl:Class>
     
@@ -4082,7 +4092,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000316"/>
         <obo:IAO_0000115 xml:lang="en">A role directive that prescribes the bearer of a patient role in a process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">patient role directive</rdfs:label>
     </owl:Class>
     
@@ -4094,7 +4104,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000316"/>
         <obo:IAO_0000115 xml:lang="en">A role directive that prescirbes the bearer of a regulatory oversight role in a process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">regulatory oversight role directive</rdfs:label>
     </owl:Class>
     
@@ -4106,7 +4116,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000316"/>
         <obo:IAO_0000115 xml:lang="en">A role directive that prescribes the bearer of an investigator role in a process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">investigator role directive</rdfs:label>
     </owl:Class>
     
@@ -4118,7 +4128,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000316"/>
         <obo:IAO_0000115 xml:lang="en">A role directive that prescribes the bearer of a legally authorized representative role in process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">legally authorized representative role directive</rdfs:label>
     </owl:Class>
     
@@ -5079,15 +5089,6 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0021018">
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ICO_0000231">
-        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <obo:IAO_0000232 xml:lang="en">This annotation property specifies classes that were developed as part of an alignment effort between the Common Rule Ontology and the Informed Consent Ontology in the Summer of 2018. These classes represent entities that are necessary for understanding the regularatory frameworks that influence informed consent, often at a different level of granularity than individual consent processes. These classes were created to be compatible with regulatory frameworks outside the Unitied States, hence they are general.</obo:IAO_0000232>
-        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
-        <obo:ICO_0000231 xml:lang="en">Regulatory Basis for Informed Consent</obo:ICO_0000231>
-        <obo:IAO_0000115 xml:lang="en">A site within which a deontic power may be realized, where that deontic power inheres in a formally created regulatory body.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">jurisdiction</rdfs:label>
-        <rdfs:comment xml:lang="en">&apos;Jurisdiction&apos; is often defined in two senses: (1) a geopolitical context (BFO site), or (2) a power. We define jurisdiction as a BFO site, identifiable through shared context of other entities, like a country or state border, or the grounds of an institution. The term ‘deontic power role’ reflects the sense of ‘power’ sometimes used to describe jurisdiction.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10239">
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
