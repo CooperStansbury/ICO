@@ -6,7 +6,7 @@ As part of the consent process in human subjects research, potential participant
 ## Contributions
 ICO was initiated in 2012 with the support of the MCubed project at the University of Michigan. Since then, many researchers and funding resources have helped to advance the development and application of ICO. Details of contributions to ICO can be found below. If you feel you have made a significant contribution, but do not see your name, please submit an issue using the GitHub Issue Tracker.
 
-In 2018, much of the [The Common Rule Ontology](https://github.com/CRO-ontology/CRO), developed by Frank J. Manion was merged into ICO. Details on The Common Rule Ontology can be found in the [Common Rule Readme](COMMON_RULE_README.md).
+In 2018, much of the [The Common Rule Ontology](https://github.com/CRO-ontology/CRO), developed by Frank J. Manion was merged into ICO. Details on The Common Rule Ontology can be found in the [Common Rule Readme](docs/COMMON_RULE_README.md).
 
 ### ICO Contributors (Alphabetically)
 - Jonathan Bona
